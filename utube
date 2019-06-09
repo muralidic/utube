@@ -7,5 +7,5 @@ read url
 echo ""
 echo ""
 echo "please wait ..."
-cd /root/Downloads/
+cd $HOME/storage/shared/utube
 youtube-dl $url
