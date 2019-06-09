@@ -1,0 +1,9 @@
+clear
+echo ""
+echo "installing .."
+pkg install python
+pip install youtube-dl
+termux-setup-storage
+mkdir storage/shared/utube
+echo "install completed !"
+
