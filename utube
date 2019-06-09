@@ -1,0 +1,11 @@
+clear
+figlet utube
+echo ""
+echo ""
+echo "enter the url:"
+read url
+echo ""
+echo ""
+echo "please wait ..."
+cd /root/Downloads/
+youtube-dl $url
